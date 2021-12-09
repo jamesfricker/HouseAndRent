@@ -11,9 +11,8 @@ def scrape_flatmates_house_info(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     page_title = soup.title.text
-    print(page_title)
+
     for div in soup.find_all(class_="styles__listingTileBox___2r9Cb"):
-        text = div.get_text(strip=True)
         for link in div.find_all(class_="styles__contentBox___37_w9"):
             href = link.get('href')
 
@@ -29,11 +28,13 @@ def scrape_flatmates_house_info(url):
             suburb = suburbs.text.split(",")[0]
 
         # get price
-
-        for prices in div.find(class_="styles__price___3Jhqs"):
-            price = prices.text
-        print("PRICE", price)
-
+        text = div.get_text(strip=True)
+        does_include_bills = text.find("bills") != -1
+        price = text.split("$")[-1].split("/")[0]
+        if(price.find("-")!= -1 ):
+            low = price.split("-")[0]
+            high = price.split("-")[1]
+            price = str((int(low)+int(high))/2).split('.')[0]
         # fix link
         link = soup.find('a')
         # get id
@@ -52,6 +53,8 @@ def scrape_flatmates_house_info(url):
         house_information = {
             "id" : id,
             "suburb" : suburb,
+            "price" : price,
+            "price_includes_bills" : does_include_bills,
             "bedroom_count" : bedroom_count,
             "bathroom_count" : bathroom_count,
             "people_count" : people_count
