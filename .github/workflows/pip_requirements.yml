@@ -1,7 +1,8 @@
 name: Requirements txt
 
 on: [push]
-
+# found how to do this here
+# https://github.com/ad-m/github-push-action
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,6 +10,9 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false 
+          fetch-depth: 0
       -
         uses: actions/setup-python@v2
         with:
@@ -17,10 +21,18 @@ jobs:
         name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-      - name: Freezing Requirements to requirements.txt
+      - 
+        name: Freezing Requirements to requirements.txt
         run: |
           pip freeze > requirements.txt
-          git add requirements.txt
-          git commit -m "bot fix requirements.txt"
-          git push
 
+      - 
+        name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "update requirements txt" -a
+      - name: Push changes
+        uses: jamesfricker/HouseAndRent@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
