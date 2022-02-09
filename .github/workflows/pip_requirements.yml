@@ -21,11 +21,11 @@ jobs:
         name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip3 install pipreqs
       - 
-        name: Freezing Requirements to requirements.txt
+        name: Adding Requirements to requirements.txt
         run: |
-          pip freeze > requirements.txt
-
+          pipreqs --force --savepath
       - 
         name: Commit files
         run: |
