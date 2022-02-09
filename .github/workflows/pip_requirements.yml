@@ -29,9 +29,11 @@ jobs:
       - 
         name: Commit files
         run: |
+          set -e
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "update requirements txt" -a
+          echo $?
       -
         name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
