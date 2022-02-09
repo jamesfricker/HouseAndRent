@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import load_to_db
+
 #:
 # make process for getting the listings run automatically
 # create flask app with graphs so we can see visual stats
