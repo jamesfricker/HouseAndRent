@@ -4,7 +4,6 @@ from datetime import datetime
 import time
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
 import load_to_db
 
 #:
@@ -12,11 +11,11 @@ import load_to_db
 # create flask app with graphs so we can see visual stats
 
 # want to scrape rent data from flatmates.com
-labels = ["id", "url", "suburb", "city", "price", "price_includes_bills",
+labels = ["flatmates_id", "url", "suburb", "city", "price", "price_includes_bills",
         "rooms_available", "house_type", "bedroom_count",
         "bathroom_count", "people_count","date"]
 class GetFlatmatesData():
-
+    """get data for listed homes from flatmates"""
     def __init__(self) -> None:
         pass
 
@@ -27,14 +26,15 @@ class GetFlatmatesData():
         for div in soup.find_all(class_="styles__listingTileBox___2r9Cb"):
             one_house_info = self.get_one_house_info(div)
             all_house_info.append(one_house_info)
-            load_to_db.load_flatmates_date_to_db(one_house_info,labels)
+            load_to_db.load_flatmates_data_to_db(one_house_info,labels)
         return all_house_info
 
 
     def get_one_house_info(self,div):
-        # get house id
+        """get information for a single home from the page div"""
+        # get house flatmates_id
         url = div.find(class_="styles__contentBox___37_w9").get('href')
-        id = url.split("-")[-1]
+        flatmates_id = url.split("-")[-1]
 
         # get suburb
         city_and_suburb = div.find(class_="styles__address___28Scu")
@@ -50,7 +50,7 @@ class GetFlatmatesData():
         if price.find("-") != -1:
             low = price.split("-")[0]
             high = price.split("-")[1]
-            price = str((int(low)+int(high))/2).split('.',maxsplit=1)[0]
+            price = str((int(low)+int(high))/2).split('.',maxsplit=1)[0].replace(",","")
 
         # get house features
         house_features = []
@@ -75,7 +75,7 @@ class GetFlatmatesData():
             house_type = room_type.split("in")[-1][1:]
 
         house_information = {
-            "id": id,
+            "flatmates_id": flatmates_id,
             "url": url,
             "suburb": suburb,
             "city": city,
@@ -93,8 +93,8 @@ class GetFlatmatesData():
 
     def write_dict_to_csv(self,csv_name, dict_arr, labels):
         try:
-            with open(csv_name, 'w') as f:
-                writer = csv.DictWriter(f, fieldnames=labels)
+            with open(csv_name, 'w') as _:
+                writer = csv.DictWriter(_, fieldnames=labels)
                 writer.writeheader()
                 for elem in dict_arr:
                     writer.writerow(elem)
@@ -116,19 +116,30 @@ class GetFlatmatesData():
         return dict_arr
 
 
-    def write_house_data_to_csv(self,house_data):
-        labels = ["id", "url", "suburb", "city", "price", "price_includes_bills",
-                "rooms_available", "house_type", "bedroom_count",
-                "bathroom_count", "people_count","date"]
+    #def write_house_data_to_csv(self,house_data):
+    #    labels = ["flatmates_id", "url", "suburb", "city", "price", "price_includes_bills",
+    #            "rooms_available", "house_type", "bedroom_count",
+    #            "bathroom_count", "people_count","date"]
 
         #self.write_dict_to_csv("flatmates_data.csv", house_data, labels)
 
+def soup_from_url(url):
+    """get bs4 from a url"""
+    page = requests.get(url)
+    return BeautifulSoup(page.content, 'html.parser')
+
+def get_flatmates_max_page(base_url):
+    """find the maximum page from flatmates"""
+    soup = soup_from_url(base_url)
+    pages_nums = soup.find_all(class_="styles__pageLink___2f9vK styles__otherPage___oBFSI")
+    return int(pages_nums[-1].text)
 
 def main():
     flatmates_data = GetFlatmatesData()
-    house_data = flatmates_data.scrape_all_flatmates_info(
-        "https://flatmates.com.au/rooms/melbourne?page=", 10)
-    flatmates_data.write_house_data_to_csv(house_data)
+    base_url = "https://flatmates.com.au/rooms/melbourne"
+    num_pages = get_flatmates_max_page(base_url)
+    flatmates_data.scrape_all_flatmates_info(base_url+"?page=",num_pages)
+    #flatmates_data.write_house_data_to_csv(house_data)
 
 
 if __name__ == "__main__":
