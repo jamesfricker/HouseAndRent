@@ -10,7 +10,7 @@ Get different Urls
 Scrape the Urls for relevant listings
 
 ## Transform
-Transform the scraped information into correct tables and id's
+Transform the scraped information into correct tables and flatmates_id's
 
 ## Load
 Load the data into sql db
