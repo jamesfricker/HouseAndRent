@@ -25,8 +25,9 @@ class GetFlatmatesData():
         soup = BeautifulSoup(page.content, 'html.parser')
         for div in soup.find_all(class_="styles__listingTileBox___2r9Cb"):
             one_house_info = self.get_one_house_info(div)
-            all_house_info.append(one_house_info)
-            load_to_db.load_flatmates_data_to_db(one_house_info,labels)
+            if one_house_info: # not None
+                all_house_info.append(one_house_info)
+                load_to_db.load_flatmates_data_to_db(one_house_info,labels)
         return all_house_info
 
 
@@ -74,22 +75,32 @@ class GetFlatmatesData():
             rooms_available = room_type.split("in")[0][:1]
             house_type = room_type.split("in")[-1][1:]
 
-        house_information = {
-            "flatmates_id": flatmates_id,
-            "url": url,
-            "suburb": suburb,
-            "city": city,
-            "price": int(price),
-            "price_includes_bills": does_include_bills,
-            "rooms_available": int(rooms_available),
-            "house_type": house_type,
-            "bedroom_count": int(bedroom_count),
-            "bathroom_count": int(bathroom_count),
-            "people_count": int(people_count),
-            "date": calendar.timegm(datetime.utcnow().utctimetuple())
-        }
-        return house_information
+        try: 
+            house_information = {
+                "flatmates_id": flatmates_id,
+                "url": url,
+                "suburb": suburb,
+                "city": city,
+                "price": int(price),
+                "price_includes_bills": does_include_bills,
+                "rooms_available": int(rooms_available),
+                "house_type": house_type,
+                "bedroom_count": int(bedroom_count),
+                "bathroom_count": int(bathroom_count),
+                "people_count": int(people_count),
+                "date": calendar.timegm(datetime.utcnow().utctimetuple())
 
+            }
+            return house_information
+
+        except:
+            print("ERROR writing to error log")
+            date = datetime.now()
+            error_logs = open("logs/errors.txt", "a",encoding='utf-8')
+            error_logs.write(date.strftime("%d %m %y %H %M")) 
+            error_logs.write(" error scraping " + str(url) +"\n")
+            error_logs.close()
+            return None
 
     def write_dict_to_csv(self,csv_name, dict_arr, labels):
         try:
@@ -106,7 +117,7 @@ class GetFlatmatesData():
     def scrape_all_flatmates_info(self,base_url, pages):
         dict_arr = []
         print("scraping...")
-        for i in range(1, pages):
+        for i in range(17, pages):
             time.sleep(10)
             this_url = base_url + str(i)
             # houses_info = scrape_flatmates_house_info(this_url)
@@ -136,7 +147,7 @@ def get_flatmates_max_page(base_url):
 
 def main():
     flatmates_data = GetFlatmatesData()
-    base_url = "https://flatmates.com.au/rooms/melbourne"
+    base_url = "https://flatmates.com.au/rooms/melbourne/newest"
     num_pages = get_flatmates_max_page(base_url)
     flatmates_data.scrape_all_flatmates_info(base_url+"?page=",num_pages)
     #flatmates_data.write_house_data_to_csv(house_data)
