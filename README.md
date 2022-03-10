@@ -32,6 +32,6 @@ Rental Data from flatmates.com.au
 
 ## Future Data
 
-Population Data
-Housing Value Data
-Affluent index 
+- Population Data
+- Housing Value Data
+- Affluent index 
