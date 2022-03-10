@@ -1,22 +1,29 @@
 # House and Rent
 
-This app will be a basic ETL app for rental data (and maybe housing data) in Australia. 
+This app is a basic ETL app for rental data in Australia. 
+
+Features coming
+- interactive web app
+- more context through housing, population data
 
 
 # Design
 
 ## Extract
-Get different Urls
-Scrape the Urls for relevant listings
+
+Scrape flatmates for rental listings 
 
 ## Transform
+
 Transform the scraped information into correct tables and flatmates_id's
 
 ## Load
+
 Load the data into sql db
 
 ## Display
-Display basic analytics on site
+
+Display basic analytics in a jupyter notebook
 
 
 # Sources
