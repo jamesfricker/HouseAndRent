@@ -3,6 +3,7 @@ name: Requirements txt
 on: [push]
 # found how to do this here
 # https://github.com/ad-m/github-push-action
+# https://github.com/ryan-rozario/pipreqs-action 
 jobs:
   build:
     runs-on: ubuntu-latest
