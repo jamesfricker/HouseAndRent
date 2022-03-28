@@ -1,3 +1,4 @@
+""" flatmates scraper logic and running """
 import csv
 import calendar
 from datetime import datetime
@@ -20,6 +21,7 @@ class GetFlatmatesData():
         pass
 
     def scrape_flatmates_page_info(self,url):
+        """ scrape an entire page on FM """
         all_house_info = []
         page = requests.get(url)
         soup = BeautifulSoup(page.content, 'html.parser')
@@ -75,7 +77,7 @@ class GetFlatmatesData():
             rooms_available = room_type.split("in")[0][:1]
             house_type = room_type.split("in")[-1][1:]
 
-        try: 
+        try:
             house_information = {
                 "flatmates_id": flatmates_id,
                 "url": url,
@@ -97,7 +99,7 @@ class GetFlatmatesData():
             print("ERROR writing to error log")
             date = datetime.now()
             error_logs = open("logs/errors.txt", "a",encoding='utf-8')
-            error_logs.write(date.strftime("%d %m %y %H %M")) 
+            error_logs.write(date.strftime("%d %m %y %H %M"))
             error_logs.write(" error scraping " + str(url) +"\n")
             error_logs.close()
             return None
@@ -115,9 +117,10 @@ class GetFlatmatesData():
 
 
     def scrape_all_flatmates_info(self,base_url, pages):
+        """ scrape info from all of FM """
         dict_arr = []
         print("scraping...")
-        for i in range(17, pages):
+        for i in range(1, pages):
             time.sleep(10)
             this_url = base_url + str(i)
             # houses_info = scrape_flatmates_house_info(this_url)
@@ -146,6 +149,7 @@ def get_flatmates_max_page(base_url):
     return int(pages_nums[-1].text)
 
 def main():
+    """ run the program """
     flatmates_data = GetFlatmatesData()
     base_url = "https://flatmates.com.au/rooms/melbourne/newest"
     num_pages = get_flatmates_max_page(base_url)

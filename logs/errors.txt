@@ -13,3 +13,19 @@
 08 03 22 18 05error scraping /granny-flat-melbourne-mill-park-3082-P1159183
 08 03 22 18 18error scraping /whole-property-melbourne-elwood-3184-P715037
 08 03 22 18 18error scraping /whole-property-melbourne-elwood-3184-P436029
+24 03 22 18 56 error scraping /granny-flat-melbourne-dandenong-north-3175-P943766
+24 03 22 18 59 error scraping /granny-flat-melbourne-dandenong-north-3175-P943766
+24 03 22 19 02 error scraping /granny-flat-melbourne-boronia-3155-P1067492
+24 03 22 19 03 error scraping /share-house-melbourne-southbank-3006-P1045335
+24 03 22 19 03 error scraping /granny-flat-melbourne-pascoe-vale-3044-P911670
+24 03 22 19 05 error scraping /granny-flat-melbourne-bentleigh-east-3165-P389320
+24 03 22 19 07 error scraping /granny-flat-melbourne-clayton-3168-P493212
+24 03 22 19 11 error scraping /granny-flat-melbourne-doncaster-3108-P968241
+24 03 22 19 11 error scraping /share-house-melbourne-south-yarra-3141-P1166318
+24 03 22 19 11 error scraping /whole-property-melbourne-3000-P1166220
+24 03 22 19 12 error scraping /granny-flat-melbourne-burwood-3125-P954545
+24 03 22 19 14 error scraping /granny-flat-melbourne-hoppers-crossing-3029-P1165354
+24 03 22 19 18 error scraping /granny-flat-melbourne-bundoora-3083-P1080623
+24 03 22 19 19 error scraping /granny-flat-melbourne-knoxfield-3180-P1161953
+24 03 22 19 22 error scraping /granny-flat-melbourne-essendon-3040-P538216
+24 03 22 19 24 error scraping /whole-property-melbourne-clayton-3168-P1159226
