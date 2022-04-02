@@ -51,9 +51,9 @@ class GetFlatmatesData():
 
         # fix price if low-high format
         if price.find("-") != -1:
-            low = price.split("-")[0]
-            high = price.split("-")[1]
-            price = str((int(low)+int(high))/2).split('.',maxsplit=1)[0].replace(",","")
+            low = price.split("-")[0].replace(",","")
+            high = price.split("-")[1].replace(",","")
+            price = str((int(low)+int(high))/2).split('.',maxsplit=1)[0]
 
         # get house features
         house_features = []
