@@ -151,11 +151,11 @@ def get_flatmates_max_page(base_url):
 def main():
     """ run the program """
     flatmates_data = GetFlatmatesData()
-    base_url = "https://flatmates.com.au/rooms/melbourne/newest"
-    num_pages = get_flatmates_max_page(base_url)
-    flatmates_data.scrape_all_flatmates_info(base_url+"?page=",num_pages)
-    #flatmates_data.write_house_data_to_csv(house_data)
-
+    cities = ["sydney", "melbourne", "brisbane", "perth", "adelaide", "canberra","hobart"]
+    for city in cities:
+        base_url = "https://flatmates.com.au/rooms/" + city + "/newest"
+        num_pages = get_flatmates_max_page(base_url)
+        flatmates_data.scrape_all_flatmates_info(base_url+"?page=",num_pages)
 
 if __name__ == "__main__":
     main()
