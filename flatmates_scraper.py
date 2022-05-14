@@ -95,8 +95,8 @@ class GetFlatmatesData():
             }
             return house_information
 
-        except:
-            print("ERROR writing to error log")
+        except Exception as e_error:
+            print(e_error, "ERROR writing to error log")
             date = datetime.now()
             error_logs = open("logs/errors.txt", "a",encoding='utf-8')
             error_logs.write(date.strftime("%d %m %y %H %M"))
@@ -104,9 +104,13 @@ class GetFlatmatesData():
             error_logs.close()
             return None
 
-    def write_dict_to_csv(self,csv_name, dict_arr, labels):
+    def write_dict_to_csv(self,csv_name, dict_arr):
+        """
+        write a dict to csv with the given labels
+        """
+
         try:
-            with open(csv_name, 'w') as _:
+            with open(csv_name, 'w',encoding='UTF-8') as _:
                 writer = csv.DictWriter(_, fieldnames=labels)
                 writer.writeheader()
                 for elem in dict_arr:
@@ -131,9 +135,7 @@ class GetFlatmatesData():
 
 
     #def write_house_data_to_csv(self,house_data):
-    #    labels = ["flatmates_id", "url", "suburb", "city", "price", "price_includes_bills",
-    #            "rooms_available", "house_type", "bedroom_count",
-    #            "bathroom_count", "people_count","date"]
+    #
 
         #self.write_dict_to_csv("flatmates_data.csv", house_data, labels)
 
