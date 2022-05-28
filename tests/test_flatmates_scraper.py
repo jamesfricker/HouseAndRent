@@ -1,6 +1,5 @@
 """simple tests for flatmates"""
-import flatmates_scraper
-
+from src import flatmates_scraper
 
 def test_soup_from_url():
     """test if scraper returns data"""
@@ -12,6 +11,4 @@ def test_get_flatmates_max_page():
     """test if max page is 220"""
     assert 180 <= flatmates_scraper.get_flatmates_max_page(
         "https://flatmates.com.au/rooms/melbourne") <= 250
-
-
-    
+        
