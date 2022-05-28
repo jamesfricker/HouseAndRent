@@ -1,22 +1,37 @@
 flatmates_id,url,suburb,city,price,price_includes_bills,rooms_available,house_type,bedroom_count,bathroom_count,people_count,date
+P1194720,/share-house-sydney-waterloo-2017-P1194720,Waterloo,Sydney,400,True,1,Flatshare,2,2,1,28-05-2022
+P1194874,/share-house-sydney-kogarah-2217-P1194874,Kogarah,Sydney,320,True,1,Flatshare,2,2,1,28-05-2022
+P771633,/share-house-sydney-erskineville-2043-P771633,Erskineville,Sydney,350,False,1,Flatshare,2,2,4,28-05-2022
+P704603,/share-house-sydney-narrabeen-2101-P704603,Narrabeen,Sydney,325,False,2,Flatshare,2,1,2,28-05-2022
+P851267,/share-house-sydney-cremorne-2090-P851267,Cremorne,Sydney,330,True,1,Share House,3,1,2,28-05-2022
+P1194820,/share-house-sydney-wentworth-point-2127-P1194820,Wentworth Point,Sydney,300,False,1,Flatshare,2,2,2,28-05-2022
+P1018021,/share-house-sydney-glenwood-2768-P1018021,Glenwood,Sydney,205,True,3,Share House,5,3,6,28-05-2022
+P1194842,/share-house-sydney-wolli-creek-2205-P1194842,Wolli Creek,Sydney,400,True,1,Flatshare,2,2,3,28-05-2022
+P1188414,/share-house-sydney-forest-lodge-2037-P1188414,Forest Lodge,Sydney,140,True,1,Share House,4,2,3,28-05-2022
+P1151093,/share-house-sydney-redfern-2016-P1151093,Redfern,Sydney,320,True,1,Flatshare,2,1,2,28-05-2022
+P358831,/share-house-sydney-ryde-2112-P358831,Ryde,Sydney,200,True,1,Share House,4,2,3,28-05-2022
+P670372,/share-house-sydney-dundas-2117-P670372,Dundas,Sydney,300,True,1,Share House,3,4,3,28-05-2022
+P1077865,/share-house-sydney-bondi-junction-2022-P1077865,Bondi Junction,Sydney,250,True,1,Flatshare,3,1,3,28-05-2022
+P1165859,/share-house-sydney-bondi-2026-P1165859,Bondi,Sydney,270,True,2,Share House,3,3,3,28-05-2022
+P1142352,/share-house-sydney-bondi-2026-P1142352,Bondi,Sydney,250,False,1,Share House,4,4,3,28-05-2022
+P602682,/share-house-sydney-penshurst-2222-P602682,Penshurst,Sydney,170,True,1,Share House,5,2,4,28-05-2022
+P1194592,/share-house-sydney-south-hurstville-2221-P1194592,South Hurstville,Sydney,160,True,1,Share House,3,1,2,28-05-2022
+P1058484,/share-house-sydney-rhodes-2138-P1058484,Rhodes,Sydney,350,True,1,Flatshare,3,3,2,28-05-2022
+P971084,/share-house-sydney-bondi-2026-P971084,Bondi,Sydney,220,True,1,Share House,3,1,4,28-05-2022
 P1186491,/share-house-sydney-rose-bay-2029-P1186491,Rose Bay,Sydney,375,False,1,Flatshare,2,1,2,28-05-2022
 P1189471,/share-house-sydney-homebush-2140-P1189471,Homebush,Sydney,290,False,1,Flatshare,2,2,2,28-05-2022
 P1110503,/share-house-sydney-ashfield-2131-P1110503,Ashfield,Sydney,190,True,1,Share House,4,1,4,28-05-2022
 P1194854,/share-house-sydney-dee-why-2099-P1194854,Dee Why,Sydney,415,True,2,Flatshare,2,2,1,28-05-2022
-P704603,/share-house-sydney-narrabeen-2101-P704603,Narrabeen,Sydney,350,False,2,Flatshare,2,1,2,28-05-2022
 P1185301,/share-house-sydney-haymarket-2000-P1185301,Haymarket,Sydney,270,True,1,Share House,4,1,3,28-05-2022
 P823965,/student-accommodation-sydney-coogee-2034-P823965,Coogee,Sydney,265,True,2,Student Accommodation,6,4,7,28-05-2022
 P921038,/share-house-sydney-surry-hills-2010-P921038,Surry Hills,Sydney,460,True,1,Flatshare,2,2,2,28-05-2022
 P1063624,/share-house-sydney-schofields-2762-P1063624,Schofields,Sydney,250,False,1,Flatshare,2,2,2,28-05-2022
 P1160287,/share-house-sydney-bligh-park-2756-P1160287,Bligh Park,Sydney,220,False,1,Share House,3,1,1,28-05-2022
-P1194720,/share-house-sydney-waterloo-2017-P1194720,Waterloo,Sydney,400,True,1,Flatshare,2,2,1,28-05-2022
 P1194840,/share-house-sydney-cronulla-2230-P1194840,Cronulla,Sydney,295,False,1,Flatshare,2,1,1,28-05-2022
 P1160445,/share-house-sydney-glebe-2037-P1160445,Glebe,Sydney,260,True,1,Share House,5,2,5,28-05-2022
 P746721,/share-house-sydney-telopea-2117-P746721,Telopea,Sydney,260,True,1,Share House,5,4,6,28-05-2022
 P1194837,/share-house-sydney-mascot-2020-P1194837,Mascot,Sydney,400,True,1,Flatshare,2,2,1,28-05-2022
-P851267,/share-house-sydney-cremorne-2090-P851267,Cremorne,Sydney,325,True,1,Share House,3,1,2,28-05-2022
 P1186589,/share-house-sydney-camperdown-2050-P1186589,Camperdown,Sydney,200,True,1,Share House,3,2,2,28-05-2022
-P771633,/share-house-sydney-erskineville-2043-P771633,Erskineville,Sydney,350,False,1,Flatshare,2,2,4,28-05-2022
 P1100325,/share-house-sydney-mosman-2088-P1100325,Mosman,Sydney,500,False,1,Flatshare,3,3,3,28-05-2022
 P87321,/share-house-sydney-riverview-2066-P87321,Riverview,Sydney,250,True,1,Share House,2,1,1,28-05-2022
 P895172,/share-house-sydney-illawong-2234-P895172,Illawong,Sydney,250,True,1,Share House,5,3,3,28-05-2022
@@ -71,7 +86,6 @@ P1048026,/studio-sydney-marsfield-2122-P1048026,Marsfield,Sydney,440,True,1,Stud
 P1182461,/whole-property-sydney-cronulla-2230-P1182461,Cronulla,Sydney,400,False,2,Whole Property for rent,2,1,0,28-05-2022
 P1194735,/share-house-sydney-marrickville-2204-P1194735,Marrickville,Sydney,350,False,1,Share House,3,3,2,28-05-2022
 P1194606,/share-house-sydney-schofields-2762-P1194606,Schofields,Sydney,250,False,1,Share House,4,3,3,28-05-2022
-P1142352,/share-house-sydney-bondi-2026-P1142352,Bondi,Sydney,255,False,1,Share House,4,4,3,28-05-2022
 P1191642,/share-house-sydney-cabramatta-2166-P1191642,Cabramatta,Sydney,190,True,1,Flatshare,2,1,2,28-05-2022
 P915449,/share-house-sydney-surry-hills-2010-P915449,Surry Hills,Sydney,190,False,1,Share House,4,1,4,28-05-2022
 P73839,/share-house-sydney-campbelltown-2560-P73839,Campbelltown,Sydney,200,True,1,Share House,4,3,4,28-05-2022
@@ -196,7 +210,6 @@ P1169724,/homestay-sydney-2000-P1169724,Sydney,Sydney,500,False,1,Homestay,2,2,2
 P1194523,/share-house-sydney-campsie-2194-P1194523,Campsie,Sydney,245,True,1,Share House,3,3,3,28-05-2022
 P1091131,/share-house-sydney-north-bondi-2026-P1091131,North Bondi,Sydney,370,False,1,Share House,3,1,3,28-05-2022
 P610863,/share-house-sydney-coogee-2034-P610863,Coogee,Sydney,1280,False,1,Share House,3,2,6,28-05-2022
-P1165859,/share-house-sydney-bondi-2026-P1165859,Bondi,Sydney,272,True,2,Share House,3,3,3,28-05-2022
 P1125812,/share-house-sydney-clovelly-2031-P1125812,Clovelly,Sydney,290,False,1,Flatshare,2,1,2,28-05-2022
 P759576,/share-house-sydney-claymore-2559-P759576,Claymore,Sydney,250,True,1,Share House,4,2,3,28-05-2022
 P782905,/share-house-sydney-potts-point-2011-P782905,Potts Point,Sydney,260,True,1,Share House,6,4,7,28-05-2022
@@ -212,7 +225,6 @@ P954178,/share-house-sydney-randwick-2031-P954178,Randwick,Sydney,240,True,1,Fla
 P1175249,/share-house-sydney-randwick-2031-P1175249,Randwick,Sydney,310,False,1,Share House,2,1,1,28-05-2022
 P971031,/share-house-sydney-2000-P971031,Sydney,Sydney,550,True,1,Flatshare,3,2,2,28-05-2022
 P1186337,/share-house-sydney-quakers-hill-2763-P1186337,Quakers Hill,Sydney,230,False,2,Share House,2,1,3,28-05-2022
-P1194592,/share-house-sydney-south-hurstville-2221-P1194592,South Hurstville,Sydney,155,True,1,Share House,3,1,2,28-05-2022
 P1194586,/share-house-sydney-surry-hills-2010-P1194586,Surry Hills,Sydney,300,True,1,Share House,4,1,5,28-05-2022
 P1194590,/share-house-sydney-parramatta-2150-P1194590,Parramatta,Sydney,320,False,1,Flatshare,3,2,3,28-05-2022
 P919451,/share-house-sydney-kingsford-2032-P919451,Kingsford,Sydney,350,True,1,Share House,3,3,3,28-05-2022
@@ -247,7 +259,6 @@ P1077305,/share-house-sydney-burwood-2134-P1077305,Burwood,Sydney,320,True,1,Fla
 P1129636,/share-house-sydney-chatswood-2067-P1129636,Chatswood,Sydney,150,True,1,Flatshare,5,2,6,28-05-2022
 P1193139,/whole-property-sydney-summer-hill-2130-P1193139,Summer Hill,Sydney,325,False,2,Whole Property for rent,2,1,0,28-05-2022
 P1190998,/share-house-sydney-queenscliff-2096-P1190998,Queenscliff,Sydney,315,False,2,Flatshare,2,1,2,28-05-2022
-P1194125,/share-house-sydney-sydney-olympic-park-2127-P1194125,Sydney Olympic Park,Sydney,370,True,1,Flatshare,3,2,3,28-05-2022
 P1167157,/share-house-sydney-north-bondi-2026-P1167157,North Bondi,Sydney,350,False,1,Share House,2,1,2,28-05-2022
 P1193630,/share-house-sydney-rosebery-2018-P1193630,Rosebery,Sydney,260,False,1,Flatshare,3,2,3,28-05-2022
 P1194154,/share-house-sydney-bondi-junction-2022-P1194154,Bondi Junction,Sydney,339,False,1,Share House,3,2,3,28-05-2022
@@ -695,7 +706,6 @@ P1192663,/share-house-sydney-bondi-junction-2022-P1192663,Bondi Junction,Sydney,
 P366095,/share-house-sydney-rockdale-2216-P366095,Rockdale,Sydney,210,True,2,Share House,5,3,7,28-05-2022
 P199673,/share-house-sydney-redfern-2016-P199673,Redfern,Sydney,340,False,1,Share House,6,4,6,28-05-2022
 P1191836,/share-house-sydney-punchbowl-2196-P1191836,Punchbowl,Sydney,180,True,1,Flatshare,2,1,2,28-05-2022
-P1191836,/share-house-sydney-punchbowl-2196-P1191836,Punchbowl,Sydney,180,True,1,Flatshare,2,1,2,28-05-2022
 P1193043,/share-house-sydney-neutral-bay-2089-P1193043,Neutral Bay,Sydney,240,True,1,Flatshare,3,1,3,28-05-2022
 P377277,/share-house-sydney-manly-2095-P377277,Manly,Sydney,420,True,1,Share House,2,1,1,28-05-2022
 P1188042,/share-house-sydney-kensington-2033-P1188042,Kensington,Sydney,315,True,1,Share House,2,1,2,28-05-2022
@@ -997,7 +1007,6 @@ P1171159,/share-house-sydney-sylvania-2224-P1171159,Sylvania,Sydney,250,True,1,S
 P1162081,/share-house-sydney-hurstville-2220-P1162081,Hurstville,Sydney,270,True,1,Share House,4,3,4,28-05-2022
 P805330,/share-house-sydney-eastwood-2122-P805330,Eastwood,Sydney,250,True,1,Share House,4,4,4,28-05-2022
 P488149,/share-house-sydney-kogarah-2217-P488149,Kogarah,Sydney,250,True,1,Share House,4,2,1,28-05-2022
-P958110,/share-house-sydney-cremorne-2090-P958110,Cremorne,Sydney,300,True,1,Flatshare,2,2,1,28-05-2022
 P936130,/share-house-sydney-queenscliff-2096-P936130,Queenscliff,Sydney,280,True,1,Flatshare,2,1,2,28-05-2022
 P1192363,/share-house-sydney-dee-why-2099-P1192363,Dee Why,Sydney,330,False,1,Flatshare,2,2,1,28-05-2022
 P1187776,/whole-property-sydney-chatswood-2067-P1187776,Chatswood,Sydney,400,False,1,Whole Property for rent,1,1,0,28-05-2022
@@ -1054,7 +1063,6 @@ P1192263,/share-house-sydney-darlinghurst-2010-P1192263,Darlinghurst,Sydney,350,
 P1192286,/share-house-sydney-dee-why-2099-P1192286,Dee Why,Sydney,300,True,1,Flatshare,2,1,2,28-05-2022
 P1192290,/share-house-sydney-mascot-2020-P1192290,Mascot,Sydney,300,True,1,Flatshare,3,2,3,28-05-2022
 P1189176,/share-house-sydney-surry-hills-2010-P1189176,Surry Hills,Sydney,350,False,1,Flatshare,2,2,1,28-05-2022
-P1186360,/share-house-sydney-potts-point-2011-P1186360,Potts Point,Sydney,300,False,1,Share House,2,2,2,28-05-2022
 P1186360,/share-house-sydney-potts-point-2011-P1186360,Potts Point,Sydney,300,False,1,Share House,2,2,2,28-05-2022
 P1188559,/share-house-sydney-mosman-2088-P1188559,Mosman,Sydney,300,True,1,Share House,2,1,2,28-05-2022
 P1191263,/share-house-sydney-parramatta-2150-P1191263,Parramatta,Sydney,280,True,1,Flatshare,2,1,1,28-05-2022
@@ -1610,7 +1618,6 @@ P1163820,/share-house-sydney-wentworthville-2145-P1163820,Wentworthville,Sydney,
 P1189454,/share-house-sydney-auburn-2144-P1189454,Auburn,Sydney,190,True,2,Share House,6,1,6,28-05-2022
 P1188655,/share-house-sydney-fairfield-east-2165-P1188655,Fairfield East,Sydney,160,True,2,Share House,3,1,3,28-05-2022
 P1189409,/1-bed-sydney-bondi-beach-2026-P1189409,Bondi Beach,Sydney,600,True,1,Bed for rent,1,1,0,28-05-2022
-P1174669,/share-house-sydney-alexandria-2015-P1174669,Alexandria,Sydney,324,False,1,Share House,4,2,4,28-05-2022
 P667737,/share-house-sydney-bondi-beach-2026-P667737,Bondi Beach,Sydney,550,True,1,Flatshare,3,2,3,28-05-2022
 P1067927,/share-house-sydney-mascot-2020-P1067927,Mascot,Sydney,460,True,1,Flatshare,2,2,2,28-05-2022
 P1189390,/share-house-sydney-kingsford-2032-P1189390,Kingsford,Sydney,250,False,1,Share House,4,1,2,28-05-2022
@@ -1792,7 +1799,6 @@ P1187757,/share-house-sydney-peakhurst-2210-P1187757,Peakhurst,Sydney,220,True,1
 P1169047,/share-house-sydney-darlinghurst-2010-P1169047,Darlinghurst,Sydney,400,False,1,Share House,2,2,2,28-05-2022
 P1175793,/share-house-sydney-canterbury-2193-P1175793,Canterbury,Sydney,275,False,1,Share House,2,2,1,28-05-2022
 P571469,/share-house-sydney-killarney-heights-2087-P571469,Killarney Heights,Sydney,270,True,1,Share House,4,3,3,28-05-2022
-P528425,/share-house-sydney-strathfield-2135-P528425,Strathfield,Sydney,280,True,1,Share House,3,3,1,28-05-2022
 P1125896,/share-house-sydney-pyrmont-2009-P1125896,Pyrmont,Sydney,370,True,1,Flatshare,3,3,4,28-05-2022
 P1083971,/1-bed-sydney-glebe-2037-P1083971,Glebe,Sydney,450,False,1,Bed for rent,1,1,0,28-05-2022
 P1116407,/share-house-sydney-seven-hills-2147-P1116407,Seven Hills,Sydney,275,True,1,Share House,4,2,4,28-05-2022
@@ -1973,11 +1979,11 @@ P1146724,/share-house-sydney-bondi-2026-P1146724,Bondi,Sydney,300,True,1,Flatsha
 P1022524,/share-house-sydney-paddington-2021-P1022524,Paddington,Sydney,340,False,1,Share House,3,1,3,28-05-2022
 P1180278,/share-house-sydney-roseville-2069-P1180278,Roseville,Sydney,300,False,1,Share House,2,2,1,28-05-2022
 P1185291,/share-house-sydney-tregear-2770-P1185291,Tregear,Sydney,220,True,1,Share House,2,1,1,28-05-2022
+P1185291,/share-house-sydney-tregear-2770-P1185291,Tregear,Sydney,220,True,1,Share House,2,1,1,28-05-2022
 P1184623,/whole-property-sydney-belrose-2085-P1184623,Belrose,Sydney,450,True,1,Whole Property for rent,1,1,0,28-05-2022
 P638468,/share-house-sydney-chester-hill-2162-P638468,Chester Hill,Sydney,205,True,1,Share House,4,3,4,28-05-2022
 P1184099,/share-house-sydney-drummoyne-2047-P1184099,Drummoyne,Sydney,450,False,1,Share House,4,4,1,28-05-2022
 P1184511,/share-house-sydney-marsfield-2122-P1184511,Marsfield,Sydney,250,True,1,Share House,2,2,2,28-05-2022
-P602682,/share-house-sydney-penshurst-2222-P602682,Penshurst,Sydney,170,True,1,Share House,5,2,4,28-05-2022
 P883306,/share-house-sydney-north-parramatta-2151-P883306,North Parramatta,Sydney,230,False,1,Share House,2,3,1,28-05-2022
 P1083251,/share-house-sydney-summer-hill-2130-P1083251,Summer Hill,Sydney,230,False,1,Flatshare,2,1,1,28-05-2022
 P1056666,/share-house-sydney-mascot-2020-P1056666,Mascot,Sydney,360,True,1,Flatshare,2,2,2,28-05-2022
@@ -2472,14 +2478,30 @@ P1192647,/whole-property-st-leonards-2065-P1192647,St Leonards,St Leonards,720,T
 P1192662,/share-house-st-leonards-2065-P1192662,St Leonards,St Leonards,365,True,2,Flatshare,2,2,2,28-05-2022
 P876698,/share-house-st-leonards-2065-P876698,St Leonards,St Leonards,325,False,1,Flatshare,2,2,1,28-05-2022
 P238223,/share-house-st-leonards-2065-P238223,St Leonards,St Leonards,330,False,2,Flatshare,3,2,3,28-05-2022
-P911655,/share-house-st-leonards-2065-P911655,St Leonards,St Leonards,280,True,1,Flatshare,3,1,3,28-05-2022
 P1189429,/studio-maianbar-2230-P1189429,Maianbar,Maianbar,280,False,1,Studio for rent,1,1,0,28-05-2022
 P1173950,/share-house-umina-beach-2257-P1173950,Umina Beach,Umina Beach,200,True,1,Share House,2,1,2,28-05-2022
 P1179095,/share-house-ettalong-beach-2257-P1179095,Ettalong Beach,Ettalong Beach,300,False,1,Share House,3,1,1,28-05-2022
 P1156576,/share-house-ettalong-beach-2257-P1156576,Ettalong Beach,Ettalong Beach,285,False,2,Share House,2,1,2,28-05-2022
 P1019970,/share-house-davistown-2251-P1019970,Davistown,Davistown,350,True,1,Share House,4,4,1,28-05-2022
-P1030693,/share-house-melbourne-mitcham-3132-P1030693,Mitcham,Melbourne,113,False,1,Share House,4,1,4,28-05-2022
+P1167202,/student-accommodation-koolewong-2256-P1167202,Koolewong,Koolewong,300,False,1,Student Accommodation,1,1,1,28-05-2022
+P1148893,/share-house-melbourne-bayswater-3153-P1148893,Bayswater,Melbourne,210,True,1,Flatshare,2,1,2,28-05-2022
+P1186339,/share-house-melbourne-boronia-3155-P1186339,Boronia,Melbourne,300,False,1,Share House,4,1,2,28-05-2022
+P1194477,/share-house-melbourne-doncaster-east-3109-P1194477,Doncaster East,Melbourne,370,False,1,Share House,3,2,3,28-05-2022
+P1194435,/share-house-melbourne-essendon-3040-P1194435,Essendon,Melbourne,245,False,1,Flatshare,2,1,1,28-05-2022
+P1194875,/share-house-melbourne-berwick-3806-P1194875,Berwick,Melbourne,225,True,1,Share House,3,2,1,28-05-2022
 P1194856,/share-house-melbourne-clayton-south-3169-P1194856,Clayton South,Melbourne,753,False,1,Share House,3,2,2,28-05-2022
+P875928,/share-house-melbourne-southbank-3006-P875928,Southbank,Melbourne,450,True,1,Flatshare,3,2,5,28-05-2022
+P1174628,/share-house-melbourne-sunshine-3020-P1174628,Sunshine,Melbourne,145,False,1,Share House,4,3,3,28-05-2022
+P1194871,/share-house-melbourne-bulleen-3105-P1194871,Bulleen,Melbourne,130,False,3,Share House,3,1,3,28-05-2022
+P143308,/share-house-melbourne-berwick-3806-P143308,Berwick,Melbourne,200,True,1,Share House,3,1,2,28-05-2022
+P1111095,/share-house-melbourne-ashwood-3147-P1111095,Ashwood,Melbourne,150,True,1,Share House,4,2,3,28-05-2022
+P990831,/share-house-melbourne-springvale-south-3172-P990831,Springvale South,Melbourne,185,True,1,Flatshare,3,2,2,28-05-2022
+P1160278,/share-house-melbourne-werribee-3030-P1160278,Werribee,Melbourne,260,True,1,Flatshare,3,2,3,28-05-2022
+P1073385,/share-house-melbourne-saint-kilda-west-3182-P1073385,Saint Kilda West,Melbourne,180,False,1,Flatshare,2,1,2,28-05-2022
+P1194844,/share-house-melbourne-docklands-3008-P1194844,Docklands,Melbourne,300,True,1,Flatshare,2,1,2,28-05-2022
+P646851,/student-accommodation-melbourne-narre-warren-south-3805-P646851,Narre Warren South,Melbourne,131,True,1,Student Accommodation,5,2,4,28-05-2022
+P959090,/share-house-melbourne-gladstone-park-3043-P959090,Gladstone Park,Melbourne,195,True,2,Share House,6,2,5,28-05-2022
+P1030693,/share-house-melbourne-mitcham-3132-P1030693,Mitcham,Melbourne,113,False,1,Share House,4,1,4,28-05-2022
 P1194857,/share-house-melbourne-reservoir-3073-P1194857,Reservoir,Melbourne,170,False,1,Share House,3,1,1,28-05-2022
 P1194090,/share-house-melbourne-mitcham-3132-P1194090,Mitcham,Melbourne,300,True,1,Share House,3,2,1,28-05-2022
 P1024206,/share-house-melbourne-bundoora-3083-P1024206,Bundoora,Melbourne,250,False,1,Flatshare,2,2,2,28-05-2022
@@ -2489,20 +2511,17 @@ P1111090,/share-house-melbourne-reservoir-3073-P1111090,Reservoir,Melbourne,175,
 P1114344,/share-house-melbourne-thornhill-park-3335-P1114344,Thornhill Park,Melbourne,160,False,1,Share House,3,2,1,28-05-2022
 P344833,/share-house-melbourne-altona-north-3025-P344833,Altona North,Melbourne,160,True,1,Share House,4,1,3,28-05-2022
 P1147797,/share-house-melbourne-bundoora-3083-P1147797,Bundoora,Melbourne,275,True,1,Flatshare,2,2,1,28-05-2022
-P1111095,/share-house-melbourne-ashwood-3147-P1111095,Ashwood,Melbourne,150,True,1,Share House,4,2,3,28-05-2022
 P1129977,/share-house-melbourne-glen-waverley-3150-P1129977,Glen Waverley,Melbourne,260,False,1,Share House,5,4,1,28-05-2022
 P1192874,/share-house-melbourne-carlton-3053-P1192874,Carlton,Melbourne,326,False,1,Share House,2,1,2,28-05-2022
 P1156280,/share-house-melbourne-braybrook-3019-P1156280,Braybrook,Melbourne,210,True,1,Share House,3,3,3,28-05-2022
 P506902,/share-house-melbourne-bulleen-3105-P506902,Bulleen,Melbourne,175,True,1,Share House,3,2,3,28-05-2022
 P1106847,/share-house-melbourne-templestowe-lower-3107-P1106847,Templestowe Lower,Melbourne,190,True,1,Share House,2,1,1,28-05-2022
 P1193560,/share-house-melbourne-reservoir-3073-P1193560,Reservoir,Melbourne,212,False,1,Share House,2,1,2,28-05-2022
-P143308,/share-house-melbourne-berwick-3806-P143308,Berwick,Melbourne,200,True,1,Share House,3,1,2,28-05-2022
 P1194616,/share-house-melbourne-the-basin-3154-P1194616,The Basin,Melbourne,230,False,1,Share House,3,1,2,28-05-2022
 P1194805,/share-house-melbourne-caulfield-east-3145-P1194805,Caulfield East,Melbourne,170,False,1,Share House,4,1,3,28-05-2022
 P964830,/share-house-melbourne-preston-3072-P964830,Preston,Melbourne,370,True,1,Share House,2,1,2,28-05-2022
 P1188919,/share-house-melbourne-doncaster-east-3109-P1188919,Doncaster East,Melbourne,210,False,2,Share House,3,2,3,28-05-2022
 P1059106,/share-house-melbourne-glen-waverley-3150-P1059106,Glen Waverley,Melbourne,200,True,1,Share House,5,3,5,28-05-2022
-P1194477,/share-house-melbourne-doncaster-east-3109-P1194477,Doncaster East,Melbourne,370,False,1,Share House,3,2,3,28-05-2022
 P1145652,/share-house-melbourne-coburg-3058-P1145652,Coburg,Melbourne,201,False,1,Share House,3,1,3,28-05-2022
 P1105228,/share-house-melbourne-southbank-3006-P1105228,Southbank,Melbourne,290,False,1,Flatshare,2,2,2,28-05-2022
 P1194790,/share-house-melbourne-caulfield-3162-P1194790,Caulfield,Melbourne,185,False,1,Share House,2,1,1,28-05-2022
@@ -2534,7 +2553,6 @@ P960385,/share-house-melbourne-balaclava-3183-P960385,Balaclava,Melbourne,240,Fa
 P1194038,/share-house-melbourne-werribee-3030-P1194038,Werribee,Melbourne,150,False,1,Share House,3,1,1,28-05-2022
 P1194777,/1-bed-melbourne-st-kilda-3182-P1194777,St Kilda,Melbourne,350,True,1,Bed for rent,1,1,0,28-05-2022
 P1191471,/share-house-melbourne-fawkner-3060-P1191471,Fawkner,Melbourne,200,False,1,Share House,2,2,1,28-05-2022
-P1174628,/share-house-melbourne-sunshine-3020-P1174628,Sunshine,Melbourne,145,False,1,Share House,4,3,3,28-05-2022
 P1183778,/share-house-melbourne-wantirna-south-3152-P1183778,Wantirna South,Melbourne,200,True,1,Share House,6,3,7,28-05-2022
 P1194707,/share-house-melbourne-frankston-north-3200-P1194707,Frankston North,Melbourne,210,False,1,Share House,4,1,1,28-05-2022
 P1058523,/student-accommodation-melbourne-frankston-3199-P1058523,Frankston,Melbourne,230,True,1,Student Accommodation,6,4,7,28-05-2022
@@ -2582,7 +2600,6 @@ P1194682,/student-accommodation-melbourne-braybrook-3019-P1194682,Braybrook,Melb
 P1096680,/share-house-melbourne-footscray-3011-P1096680,Footscray,Melbourne,230,False,1,Flatshare,2,2,1,28-05-2022
 P1165691,/share-house-melbourne-tarneit-3029-P1165691,Tarneit,Melbourne,200,False,1,Share House,4,2,1,28-05-2022
 P1187064,/share-house-melbourne-3000-P1187064,Melbourne,Melbourne,330,True,1,Share House,3,2,4,28-05-2022
-P959090,/share-house-melbourne-gladstone-park-3043-P959090,Gladstone Park,Melbourne,195,True,2,Share House,6,2,5,28-05-2022
 P1194661,/share-house-melbourne-southbank-3006-P1194661,Southbank,Melbourne,330,False,1,Flatshare,2,2,2,28-05-2022
 P1051312,/share-house-melbourne-pascoe-vale-south-3044-P1051312,Pascoe Vale South,Melbourne,200,False,1,Share House,2,1,2,28-05-2022
 P1184720,/share-house-melbourne-airport-west-3042-P1184720,Airport West,Melbourne,107,False,2,Share House,2,1,3,28-05-2022
@@ -2683,7 +2700,6 @@ P1194449,/share-house-melbourne-clayton-3168-P1194449,Clayton,Melbourne,137,True
 P1194313,/share-house-melbourne-travancore-3032-P1194313,Travancore,Melbourne,185,False,1,Flatshare,2,1,2,28-05-2022
 P1179726,/share-house-melbourne-preston-3072-P1179726,Preston,Melbourne,186,False,1,Share House,3,2,3,28-05-2022
 P1194426,/share-house-melbourne-elwood-3184-P1194426,Elwood,Melbourne,190,False,1,Flatshare,3,2,3,28-05-2022
-P1194435,/share-house-melbourne-essendon-3040-P1194435,Essendon,Melbourne,245,False,1,Flatshare,2,1,1,28-05-2022
 P1190523,/share-house-melbourne-clayton-3168-P1190523,Clayton,Melbourne,270,True,3,Share House,6,4,7,28-05-2022
 P1002080,/share-house-melbourne-reservoir-3073-P1002080,Reservoir,Melbourne,200,False,1,Share House,3,3,2,28-05-2022
 P1183539,/share-house-melbourne-berwick-3806-P1183539,Berwick,Melbourne,200,True,1,Share House,4,2,1,28-05-2022
@@ -2767,7 +2783,6 @@ P1185824,/share-house-melbourne-truganina-3029-P1185824,Truganina,Melbourne,199,
 P1194225,/share-house-melbourne-toorak-3142-P1194225,Toorak,Melbourne,179,False,1,Flatshare,3,1,3,28-05-2022
 P1193451,/share-house-melbourne-pascoe-vale-3044-P1193451,Pascoe Vale,Melbourne,165,False,1,Flatshare,2,1,1,28-05-2022
 P1179346,/share-house-melbourne-templestowe-lower-3107-P1179346,Templestowe Lower,Melbourne,180,False,1,Share House,4,2,4,28-05-2022
-P1193794,/share-house-melbourne-southbank-3006-P1193794,Southbank,Melbourne,173,True,1,Flatshare,2,2,1,28-05-2022
 P1139577,/share-house-melbourne-mooroolbark-3138-P1139577,Mooroolbark,Melbourne,205,True,1,Share House,3,1,2,28-05-2022
 P1189824,/share-house-melbourne-rosanna-3084-P1189824,Rosanna,Melbourne,280,False,1,Share House,3,2,2,28-05-2022
 P1191205,/share-house-melbourne-3000-P1191205,Melbourne,Melbourne,290,False,1,Flatshare,2,2,2,28-05-2022
@@ -3819,7 +3834,6 @@ P1151885,/share-house-melbourne-box-hill-north-3129-P1151885,Box Hill North,Melb
 P1189489,/share-house-melbourne-northcote-3070-P1189489,Northcote,Melbourne,275,False,1,Share House,3,1,3,28-05-2022
 P1097069,/share-house-melbourne-ringwood-3134-P1097069,Ringwood,Melbourne,200,True,1,Share House,3,1,2,28-05-2022
 P1135021,/share-house-melbourne-springvale-3171-P1135021,Springvale,Melbourne,210,False,1,Share House,3,2,3,28-05-2022
-P1077817,/share-house-melbourne-reservoir-3073-P1077817,Reservoir,Melbourne,180,True,1,Share House,4,2,4,28-05-2022
 P807335,/share-house-melbourne-northcote-3070-P807335,Northcote,Melbourne,285,False,1,Flatshare,2,1,2,28-05-2022
 P1168420,/share-house-melbourne-burwood-east-3151-P1168420,Burwood East,Melbourne,167,True,2,Share House,5,2,5,28-05-2022
 P636337,/student-accommodation-melbourne-seaford-3198-P636337,Seaford,Melbourne,235,True,2,Student Accommodation,4,2,4,28-05-2022
@@ -3872,7 +3886,6 @@ P413502,/share-house-melbourne-carnegie-3163-P413502,Carnegie,Melbourne,225,True
 P973546,/share-house-melbourne-clayton-3168-P973546,Clayton,Melbourne,255,True,4,Share House,6,4,6,28-05-2022
 P1111190,/share-house-melbourne-st-kilda-3182-P1111190,St Kilda,Melbourne,360,True,1,Flatshare,3,1,2,28-05-2022
 P701133,/share-house-melbourne-braybrook-3019-P701133,Braybrook,Melbourne,200,False,1,Share House,3,3,3,28-05-2022
-P1138161,/share-house-melbourne-3004-P1138161,Melbourne,Melbourne,225,False,1,Flatshare,2,1,2,28-05-2022
 P1189228,/share-house-melbourne-briar-hill-3088-P1189228,Briar Hill,Melbourne,250,True,1,Share House,3,2,1,28-05-2022
 P1021314,/share-house-melbourne-mount-waverley-3149-P1021314,Mount Waverley,Melbourne,210,True,1,Share House,2,1,1,28-05-2022
 P1049061,/share-house-melbourne-altona-3018-P1049061,Altona,Melbourne,200,False,1,Share House,5,2,5,28-05-2022
@@ -3959,7 +3972,6 @@ P1098411,/share-house-melbourne-bundoora-3083-P1098411,Bundoora,Melbourne,100,Fa
 P1143315,/share-house-melbourne-doncaster-3108-P1143315,Doncaster,Melbourne,150,False,1,Share House,4,3,4,28-05-2022
 P1184879,/share-house-melbourne-chirnside-park-3116-P1184879,Chirnside Park,Melbourne,250,False,1,Share House,3,2,1,28-05-2022
 P1187709,/share-house-melbourne-clayton-3168-P1187709,Clayton,Melbourne,206,False,1,Share House,2,1,1,28-05-2022
-P199029,/share-house-melbourne-forest-hill-3131-P199029,Forest Hill,Melbourne,175,False,1,Share House,3,1,3,28-05-2022
 P271175,/share-house-melbourne-bundoora-3083-P271175,Bundoora,Melbourne,180,True,1,Share House,5,4,5,28-05-2022
 P1181554,/share-house-melbourne-diamond-creek-3089-P1181554,Diamond Creek,Melbourne,185,False,1,Share House,3,2,2,28-05-2022
 P1188438,/share-house-melbourne-hampton-east-3188-P1188438,Hampton East,Melbourne,275,False,1,Share House,3,3,3,28-05-2022
@@ -3970,7 +3982,6 @@ P1183052,/share-house-melbourne-northcote-3070-P1183052,Northcote,Melbourne,315,
 P1174077,/share-house-melbourne-3000-P1174077,Melbourne,Melbourne,300,False,1,Share House,2,1,2,28-05-2022
 P1151144,/share-house-melbourne-docklands-3008-P1151144,Docklands,Melbourne,180,False,1,Flatshare,2,1,1,28-05-2022
 P1115582,/share-house-melbourne-box-hill-north-3129-P1115582,Box Hill North,Melbourne,215,True,2,Share House,5,2,4,28-05-2022
-P1186339,/share-house-melbourne-boronia-3155-P1186339,Boronia,Melbourne,300,False,1,Share House,4,1,2,28-05-2022
 P738951,/share-house-melbourne-mount-waverley-3149-P738951,Mount Waverley,Melbourne,180,True,1,Share House,6,2,1,28-05-2022
 P1188329,/share-house-melbourne-hawthorn-3122-P1188329,Hawthorn,Melbourne,250,False,1,Share House,3,3,2,28-05-2022
 P1156166,/share-house-melbourne-clayton-3168-P1156166,Clayton,Melbourne,210,True,1,Flatshare,6,4,6,28-05-2022
@@ -4188,7 +4199,6 @@ P1140467,/share-house-melbourne-noble-park-3174-P1140467,Noble Park,Melbourne,20
 P1115304,/share-house-melbourne-altona-north-3025-P1115304,Altona North,Melbourne,200,False,1,Share House,3,2,1,28-05-2022
 P1185861,/share-house-melbourne-burwood-3125-P1185861,Burwood,Melbourne,160,False,1,Share House,5,3,5,28-05-2022
 P643765,/share-house-melbourne-fitzroy-north-3068-P643765,Fitzroy North,Melbourne,320,True,1,Share House,4,2,4,28-05-2022
-P1167122,/share-house-melbourne-preston-3072-P1167122,Preston,Melbourne,175,False,1,Share House,3,1,2,28-05-2022
 P1047161,/student-accommodation-melbourne-clayton-3168-P1047161,Clayton,Melbourne,255,True,1,Student Accommodation,6,4,6,28-05-2022
 P1183772,/share-house-melbourne-3004-P1183772,Melbourne,Melbourne,285,True,3,Share House,6,4,7,28-05-2022
 P714926,/share-house-melbourne-blackburn-south-3130-P714926,Blackburn South,Melbourne,175,False,1,Share House,3,2,2,28-05-2022
@@ -4235,7 +4245,6 @@ P599946,/share-house-melbourne-south-yarra-3141-P599946,South Yarra,Melbourne,27
 P1184240,/student-accommodation-melbourne-carlton-3053-P1184240,Carlton,Melbourne,469,True,1,Student Accommodation,1,1,1,28-05-2022
 P1017571,/share-house-melbourne-point-cook-3030-P1017571,Point Cook,Melbourne,165,True,2,Share House,5,3,2,28-05-2022
 P1179085,/share-house-melbourne-kingsbury-3083-P1179085,Kingsbury,Melbourne,250,True,1,Share House,3,1,3,28-05-2022
-P632847,/share-house-melbourne-fitzroy-north-3068-P632847,Fitzroy North,Melbourne,210,False,1,Share House,3,1,3,28-05-2022
 P1104183,/share-house-melbourne-elwood-3184-P1104183,Elwood,Melbourne,300,False,1,Flatshare,2,2,2,28-05-2022
 P1157610,/share-house-melbourne-glen-iris-3146-P1157610,Glen Iris,Melbourne,250,True,1,Share House,3,1,2,28-05-2022
 P543425,/share-house-melbourne-alphington-3078-P543425,Alphington,Melbourne,290,False,1,Share House,2,2,2,28-05-2022
@@ -4429,7 +4438,6 @@ P1115285,/share-house-melbourne-tullamarine-3043-P1115285,Tullamarine,Melbourne,
 P1180822,/share-house-melbourne-clayton-south-3169-P1180822,Clayton South,Melbourne,205,False,1,Share House,3,1,2,28-05-2022
 P1128592,/share-house-melbourne-tullamarine-3043-P1128592,Tullamarine,Melbourne,196,False,1,Share House,4,2,3,28-05-2022
 P1181786,/share-house-melbourne-donvale-3111-P1181786,Donvale,Melbourne,260,False,1,Share House,3,3,1,28-05-2022
-P875928,/share-house-melbourne-southbank-3006-P875928,Southbank,Melbourne,450,True,1,Flatshare,3,2,5,28-05-2022
 P1181818,/share-house-melbourne-pascoe-vale-3044-P1181818,Pascoe Vale,Melbourne,190,False,1,Share House,2,2,1,28-05-2022
 P1031072,/share-house-melbourne-sunshine-3020-P1031072,Sunshine,Melbourne,170,True,1,Share House,3,2,1,28-05-2022
 P1178209,/share-house-melbourne-donvale-3111-P1178209,Donvale,Melbourne,195,False,1,Share House,2,1,1,28-05-2022
@@ -4552,7 +4560,6 @@ P1082944,/share-house-melbourne-wandin-east-3139-P1082944,Wandin East,Melbourne,
 P1069615,/whole-property-melbourne-brunswick-3056-P1069615,Brunswick,Melbourne,600,False,2,Whole Property for rent,2,1,0,28-05-2022
 P1177745,/share-house-melbourne-keilor-east-3033-P1177745,Keilor East,Melbourne,300,True,1,Share House,4,1,2,28-05-2022
 P1145107,/share-house-melbourne-springvale-3171-P1145107,Springvale,Melbourne,250,True,1,Share House,3,2,4,28-05-2022
-P1171188,/share-house-melbourne-clayton-3168-P1171188,Clayton,Melbourne,155,False,1,Share House,4,2,4,28-05-2022
 P1165635,/share-house-melbourne-clayton-3168-P1165635,Clayton,Melbourne,200,False,1,Share House,3,1,3,28-05-2022
 P1176934,/share-house-melbourne-keysborough-3173-P1176934,Keysborough,Melbourne,200,True,1,Share House,3,2,3,28-05-2022
 P1137691,/share-house-melbourne-keysborough-3173-P1137691,Keysborough,Melbourne,200,False,1,Share House,3,3,4,28-05-2022
@@ -4589,6 +4596,7 @@ P821521,/share-house-melbourne-footscray-3011-P821521,Footscray,Melbourne,147,Fa
 P726212,/share-house-melbourne-tarneit-3029-P726212,Tarneit,Melbourne,187,True,1,Share House,4,2,3,28-05-2022
 P957573,/share-house-melbourne-mount-waverley-3149-P957573,Mount Waverley,Melbourne,400,True,1,Share House,5,4,3,28-05-2022
 P1175770,/share-house-melbourne-donvale-3111-P1175770,Donvale,Melbourne,200,False,1,Share House,4,2,2,28-05-2022
+P1175770,/share-house-melbourne-donvale-3111-P1175770,Donvale,Melbourne,200,False,1,Share House,4,2,2,28-05-2022
 P143948,/share-house-melbourne-parkdale-3195-P143948,Parkdale,Melbourne,220,True,1,Share House,4,2,4,28-05-2022
 P1156125,/share-house-melbourne-endeavour-hills-3802-P1156125,Endeavour Hills,Melbourne,150,False,1,Share House,2,1,1,28-05-2022
 P1163252,/share-house-melbourne-brunswick-east-3057-P1163252,Brunswick East,Melbourne,212,False,1,Flatshare,2,1,2,28-05-2022
@@ -4621,7 +4629,6 @@ P826876,/whole-property-melbourne-3000-P826876,Melbourne,Melbourne,630,False,2,W
 P1100328,/share-house-melbourne-malvern-3144-P1100328,Malvern,Melbourne,250,False,1,Share House,3,3,3,28-05-2022
 P1174207,/share-house-melbourne-south-yarra-3141-P1174207,South Yarra,Melbourne,375,True,1,Share House,2,1,2,28-05-2022
 P1105081,/share-house-melbourne-doreen-3754-P1105081,Doreen,Melbourne,150,False,1,Share House,3,2,2,28-05-2022
-P753995,/share-house-melbourne-mernda-3754-P753995,Mernda,Melbourne,175,True,1,Share House,4,2,2,28-05-2022
 P696011,/share-house-melbourne-mill-park-3082-P696011,Mill Park,Melbourne,312,True,2,Share House,3,3,2,28-05-2022
 P1080445,/share-house-melbourne-sunshine-3020-P1080445,Sunshine,Melbourne,240,False,1,Share House,3,2,1,28-05-2022
 P768353,/share-house-melbourne-keysborough-3173-P768353,Keysborough,Melbourne,150,True,1,Share House,3,2,2,28-05-2022
@@ -4698,7 +4705,6 @@ P1087071,/share-house-melbourne-glenroy-3046-P1087071,Glenroy,Melbourne,160,Fals
 P1073137,/share-house-melbourne-oakleigh-south-3167-P1073137,Oakleigh South,Melbourne,290,True,1,Flatshare,2,2,1,28-05-2022
 P1018491,/share-house-melbourne-sandringham-3191-P1018491,Sandringham,Melbourne,262,True,4,Share House,6,4,7,28-05-2022
 P1027358,/share-house-melbourne-bundoora-3083-P1027358,Bundoora,Melbourne,220,True,1,Share House,3,2,3,28-05-2022
-P1169696,/share-house-melbourne-berwick-3806-P1169696,Berwick,Melbourne,200,True,1,Share House,5,2,3,28-05-2022
 P1148707,/share-house-melbourne-st-albans-3021-P1148707,St Albans,Melbourne,150,False,1,Share House,2,1,3,28-05-2022
 P1155695,/share-house-melbourne-brunswick-west-3055-P1155695,Brunswick West,Melbourne,100,False,1,Share House,3,2,2,28-05-2022
 P1169189,/share-house-melbourne-docklands-3008-P1169189,Docklands,Melbourne,400,True,1,Share House,2,2,1,28-05-2022
@@ -4865,6 +4871,12 @@ P1129723,/share-house-sunbury-3429-P1129723,Sunbury,Sunbury,240,True,2,Share Hou
 P1182133,/share-house-sunbury-3429-P1182133,Sunbury,Sunbury,220,True,1,Share House,3,1,2,28-05-2022
 P851462,/share-house-sunbury-3429-P851462,Sunbury,Sunbury,200,False,1,Share House,4,2,2,28-05-2022
 P933678,/share-house-beveridge-3753-P933678,Beveridge,Beveridge,250,False,1,Share House,3,2,1,28-05-2022
+P1193910,/share-house-brisbane-narangba-4504-P1193910,Narangba,Brisbane,180,False,1,Flatshare,3,2,1,28-05-2022
+P1194870,/share-house-brisbane-bracken-ridge-4017-P1194870,Bracken Ridge,Brisbane,185,True,2,Share House,2,1,3,28-05-2022
+P659108,/granny-flat-brisbane-holland-park-4121-P659108,Holland Park,Brisbane,390,True,1,Granny Flat for rent,1,1,0,28-05-2022
+P705440,/share-house-brisbane-paddington-4064-P705440,Paddington,Brisbane,285,True,1,Share House,4,2,4,28-05-2022
+P1194734,/whole-property-brisbane-fortitude-valley-4006-P1194734,Fortitude Valley,Brisbane,485,False,2,Whole Property for rent,2,1,0,28-05-2022
+P1194832,/share-house-brisbane-teneriffe-4005-P1194832,Teneriffe,Brisbane,320,False,1,Flatshare,2,2,2,28-05-2022
 P1194625,/share-house-brisbane-upper-mount-gravatt-4122-P1194625,Upper Mount Gravatt,Brisbane,390,False,1,Share House,4,2,1,28-05-2022
 P1194859,/share-house-brisbane-kedron-4031-P1194859,Kedron,Brisbane,250,True,1,Flatshare,2,2,1,28-05-2022
 P1184606,/share-house-brisbane-toowong-4066-P1184606,Toowong,Brisbane,150,False,1,Share House,4,2,4,28-05-2022
@@ -5367,7 +5379,6 @@ P1158834,/share-house-brisbane-lutwyche-4030-P1158834,Lutwyche,Brisbane,250,Fals
 P1184940,/share-house-brisbane-windsor-4030-P1184940,Windsor,Brisbane,190,False,1,Share House,2,2,1,28-05-2022
 P1184945,/share-house-brisbane-redbank-plains-4301-P1184945,Redbank Plains,Brisbane,180,False,1,Share House,4,2,2,28-05-2022
 P1149206,/share-house-brisbane-strathpine-4500-P1149206,Strathpine,Brisbane,250,True,1,Share House,4,2,1,28-05-2022
-P1174597,/share-house-brisbane-brisbane-city-4000-P1174597,Brisbane City,Brisbane,300,True,1,Share House,3,2,3,28-05-2022
 P1175967,/share-house-brisbane-eight-mile-plains-4113-P1175967,Eight Mile Plains,Brisbane,187,True,2,Share House,3,2,3,28-05-2022
 P1150801,/share-house-brisbane-jindalee-4074-P1150801,Jindalee,Brisbane,200,True,1,Flatshare,3,1,1,28-05-2022
 P1186215,/share-house-brisbane-auchenflower-4066-P1186215,Auchenflower,Brisbane,159,False,1,Share House,5,2,5,28-05-2022
@@ -5498,7 +5509,6 @@ P1191506,/granny-flat-brisbane-carseldine-4034-P1191506,Carseldine,Brisbane,290,
 P1191501,/share-house-brisbane-morningside-4170-P1191501,Morningside,Brisbane,200,False,1,Share House,3,2,3,28-05-2022
 P1182724,/share-house-brisbane-kenmore-4069-P1182724,Kenmore,Brisbane,250,True,1,Share House,5,2,2,28-05-2022
 P1159439,/share-house-brisbane-bellbowrie-4070-P1159439,Bellbowrie,Brisbane,150,True,1,Share House,4,3,2,28-05-2022
-P1191428,/share-house-brisbane-runcorn-4113-P1191428,Runcorn,Brisbane,265,False,1,Share House,4,2,1,28-05-2022
 P1050568,/share-house-brisbane-greenbank-4124-P1050568,Greenbank,Brisbane,180,False,1,Share House,4,2,2,28-05-2022
 P1191147,/share-house-brisbane-albion-4010-P1191147,Albion,Brisbane,180,False,2,Share House,4,2,4,28-05-2022
 P1190743,/share-house-brisbane-collingwood-park-4301-P1190743,Collingwood Park,Brisbane,220,False,1,Share House,4,2,2,28-05-2022
@@ -5797,7 +5807,6 @@ P1187155,/share-house-brisbane-chermside-4032-P1187155,Chermside,Brisbane,250,Fa
 P1062493,/share-house-brisbane-upper-mount-gravatt-4122-P1062493,Upper Mount Gravatt,Brisbane,140,False,1,Flatshare,3,1,3,28-05-2022
 P1140818,/student-accommodation-brisbane-kelvin-grove-4059-P1140818,Kelvin Grove,Brisbane,352,True,2,Student Accommodation,1,1,7,28-05-2022
 P1141593,/share-house-brisbane-kelvin-grove-4059-P1141593,Kelvin Grove,Brisbane,350,True,1,Flatshare,2,1,1,28-05-2022
-P1097084,/student-accommodation-brisbane-windsor-4030-P1097084,Windsor,Brisbane,250,False,1,Student Accommodation,2,2,2,28-05-2022
 P1173298,/share-house-brisbane-riverhills-4074-P1173298,Riverhills,Brisbane,230,True,2,Share House,3,2,3,28-05-2022
 P630809,/share-house-brisbane-paddington-4064-P630809,Paddington,Brisbane,210,True,1,Share House,5,4,4,28-05-2022
 P1093623,/share-house-brisbane-eight-mile-plains-4113-P1093623,Eight Mile Plains,Brisbane,300,True,1,Share House,6,4,5,28-05-2022
@@ -6098,7 +6107,6 @@ P871788,/share-house-brisbane-browns-plains-4118-P871788,Browns Plains,Brisbane,
 P1119036,/share-house-brisbane-gordon-park-4031-P1119036,Gordon Park,Brisbane,200,True,1,Share House,3,1,1,28-05-2022
 P1110586,/share-house-brisbane-norman-park-4170-P1110586,Norman Park,Brisbane,130,False,1,Flatshare,2,1,2,28-05-2022
 P1004214,/share-house-brisbane-marsden-4132-P1004214,Marsden,Brisbane,205,True,3,Share House,5,2,4,28-05-2022
-P1131543,/share-house-brisbane-thornlands-4164-P1131543,Thornlands,Brisbane,195,True,1,Share House,4,2,1,28-05-2022
 P1164130,/share-house-brisbane-redbank-4301-P1164130,Redbank,Brisbane,150,True,1,Share House,4,2,1,28-05-2022
 P1164691,/share-house-brisbane-woolloongabba-4102-P1164691,Woolloongabba,Brisbane,250,False,1,Flatshare,2,2,2,28-05-2022
 P1164644,/share-house-brisbane-wishart-4122-P1164644,Wishart,Brisbane,220,True,1,Share House,3,3,1,28-05-2022
@@ -6157,6 +6165,9 @@ P1146063,/share-house-eastern-heights-4305-P1146063,Eastern Heights,Eastern Heig
 P676389,/homestay-ipswich-4305-P676389,Ipswich,Ipswich,220,False,1,Homestay,1,1,1,28-05-2022
 P1169224,/share-house-ipswich-4305-P1169224,Ipswich,Ipswich,200,True,1,Flatshare,2,1,2,28-05-2022
 P1152504,/share-house-brassall-4305-P1152504,Brassall,Brassall,200,False,1,Share House,3,2,1,28-05-2022
+P1088877,/share-house-perth-doubleview-6018-P1088877,Doubleview,Perth,230,True,1,Share House,3,1,1,28-05-2022
+P1194868,/share-house-perth-doubleview-6018-P1194868,Doubleview,Perth,230,False,1,Share House,3,1,1,28-05-2022
+P1134261,/share-house-perth-maylands-6051-P1134261,Maylands,Perth,260,False,1,Share House,4,3,3,28-05-2022
 P1193678,/share-house-perth-aveley-6069-P1193678,Aveley,Perth,200,True,1,Share House,4,2,1,28-05-2022
 P1194626,/share-house-perth-fremantle-6160-P1194626,Fremantle,Perth,250,False,1,Share House,6,2,2,28-05-2022
 P1193591,/share-house-perth-scarborough-6019-P1193591,Scarborough,Perth,200,False,1,Share House,3,2,3,28-05-2022
@@ -6165,7 +6176,6 @@ P539149,/share-house-perth-east-victoria-park-6101-P539149,East Victoria Park,Pe
 P1032520,/share-house-perth-nedlands-6009-P1032520,Nedlands,Perth,195,True,1,Share House,3,1,3,28-05-2022
 P1194824,/share-house-perth-yokine-6060-P1194824,Yokine,Perth,280,True,1,Share House,4,2,1,28-05-2022
 P1194275,/share-house-perth-manning-6152-P1194275,Manning,Perth,175,False,1,Share House,4,2,3,28-05-2022
-P1164969,/share-house-perth-north-perth-6006-P1164969,North Perth,Perth,250,False,1,Flatshare,2,2,1,28-05-2022
 P1194529,/share-house-perth-parkwood-6147-P1194529,Parkwood,Perth,220,False,1,Share House,5,3,2,28-05-2022
 P1187174,/share-house-perth-heathridge-6027-P1187174,Heathridge,Perth,250,False,1,Share House,3,2,1,28-05-2022
 P1194767,/share-house-perth-leederville-6007-P1194767,Leederville,Perth,240,False,1,Share House,4,2,4,28-05-2022
@@ -6769,7 +6779,6 @@ P1156865,/share-house-perth-mount-lawley-6050-P1156865,Mount Lawley,Perth,240,Tr
 P996311,/share-house-perth-cloverdale-6105-P996311,Cloverdale,Perth,175,False,1,Share House,4,2,3,28-05-2022
 P1090069,/share-house-perth-6004-P1090069,Perth,Perth,310,True,1,Flatshare,2,2,1,28-05-2022
 P1153829,/share-house-perth-yokine-6060-P1153829,Yokine,Perth,375,True,1,Share House,4,2,1,28-05-2022
-P1153829,/share-house-perth-yokine-6060-P1153829,Yokine,Perth,375,True,1,Share House,4,2,1,28-05-2022
 P625055,/share-house-perth-south-perth-6151-P625055,South Perth,Perth,280,False,1,Share House,3,3,2,28-05-2022
 P1151013,/share-house-perth-mariginiup-6078-P1151013,Mariginiup,Perth,140,True,1,Share House,4,2,1,28-05-2022
 P1070959,/share-house-perth-sorrento-6020-P1070959,Sorrento,Perth,300,True,1,Share House,5,2,3,28-05-2022
@@ -6790,6 +6799,14 @@ P1175923,/share-house-wannanup-6210-P1175923,Wannanup,Wannanup,220,True,1,Share 
 P1194825,/share-house-northam-6401-P1194825,Northam,Northam,100,False,1,Share House,2,1,1,28-05-2022
 P784659,/share-house-eaton-6232-P784659,Eaton,Eaton,180,False,1,Share House,3,2,1,28-05-2022
 P1186632,/whole-property-bunbury-6230-P1186632,Bunbury,Bunbury,260,False,1,Whole Property for rent,1,1,0,28-05-2022
+P1194881,/share-house-adelaide-5000-P1194881,Adelaide,Adelaide,200,True,1,Flatshare,4,1,4,28-05-2022
+P1194883,/share-house-adelaide-5000-P1194883,Adelaide,Adelaide,230,False,1,Flatshare,3,2,3,28-05-2022
+P1150911,/share-house-adelaide-christies-beach-5165-P1150911,Christies Beach,Adelaide,175,False,1,Share House,3,2,3,28-05-2022
+P1140215,/homestay-adelaide-5000-P1140215,Adelaide,Adelaide,300,False,1,Homestay,1,1,2,28-05-2022
+P922460,/share-house-adelaide-park-holme-5043-P922460,Park Holme,Adelaide,210,True,1,Share House,4,2,3,28-05-2022
+P1121475,/share-house-adelaide-aldinga-beach-5173-P1121475,Aldinga Beach,Adelaide,200,False,1,Share House,3,2,1,28-05-2022
+P1143839,/share-house-adelaide-woodforde-5072-P1143839,Woodforde,Adelaide,250,False,1,Share House,2,2,1,28-05-2022
+P1194835,/share-house-adelaide-mile-end-5031-P1194835,Mile End,Adelaide,170,False,1,Flatshare,2,1,3,28-05-2022
 P686884,/share-house-adelaide-flagstaff-hill-5159-P686884,Flagstaff Hill,Adelaide,210,True,1,Share House,4,2,3,28-05-2022
 P1194828,/share-house-adelaide-hove-5048-P1194828,Hove,Adelaide,200,True,1,Share House,2,1,1,28-05-2022
 P1172736,/share-house-adelaide-westbourne-park-5041-P1172736,Westbourne Park,Adelaide,200,False,1,Share House,2,1,1,28-05-2022
@@ -7033,7 +7050,6 @@ P1150708,/share-house-adelaide-henley-beach-south-5022-P1150708,Henley Beach Sou
 P480918,/share-house-adelaide-gilberton-5081-P480918,Gilberton,Adelaide,180,True,1,Share House,6,2,5,28-05-2022
 P1005339,/share-house-adelaide-5000-P1005339,Adelaide,Adelaide,250,True,1,Share House,3,1,3,28-05-2022
 P1188992,/student-accommodation-adelaide-5000-P1188992,Adelaide,Adelaide,195,False,1,Student Accommodation,4,2,4,28-05-2022
-P922460,/share-house-adelaide-park-holme-5043-P922460,Park Holme,Adelaide,250,True,1,Share House,4,2,3,28-05-2022
 P794764,/share-house-adelaide-royal-park-5014-P794764,Royal Park,Adelaide,160,False,1,Share House,4,1,4,28-05-2022
 P1155471,/share-house-adelaide-oaklands-park-5046-P1155471,Oaklands Park,Adelaide,225,True,1,Share House,2,2,1,28-05-2022
 P1189565,/share-house-adelaide-norwood-5067-P1189565,Norwood,Adelaide,250,False,1,Share House,2,1,1,28-05-2022
@@ -7053,7 +7069,6 @@ P1042896,/share-house-adelaide-felixstow-5070-P1042896,Felixstow,Adelaide,230,Fa
 P1188916,/share-house-adelaide-park-holme-5043-P1188916,Park Holme,Adelaide,300,True,1,Share House,3,2,1,28-05-2022
 P1185260,/share-house-adelaide-daw-park-5041-P1185260,Daw Park,Adelaide,200,False,1,Share House,2,1,2,28-05-2022
 P1187743,/share-house-adelaide-taperoo-5017-P1187743,Taperoo,Adelaide,250,False,1,Share House,3,2,1,28-05-2022
-P1064528,/share-house-adelaide-south-plympton-5038-P1064528,South Plympton,Adelaide,225,True,1,Share House,3,2,3,28-05-2022
 P1064528,/share-house-adelaide-south-plympton-5038-P1064528,South Plympton,Adelaide,225,True,1,Share House,3,2,3,28-05-2022
 P1187653,/share-house-adelaide-campbelltown-5074-P1187653,Campbelltown,Adelaide,250,False,1,Share House,4,3,1,28-05-2022
 P1122139,/homestay-adelaide-sheidow-park-5158-P1122139,Sheidow Park,Adelaide,150,True,1,Homestay,4,2,3,28-05-2022
@@ -7152,7 +7167,6 @@ P1173581,/share-house-adelaide-kensington-gardens-5068-P1173581,Kensington Garde
 P1135829,/share-house-adelaide-athelstone-5076-P1135829,Athelstone,Adelaide,200,True,1,Share House,3,1,2,28-05-2022
 P504365,/share-house-adelaide-semaphore-5019-P504365,Semaphore,Adelaide,190,True,1,Share House,3,1,3,28-05-2022
 P1003214,/share-house-adelaide-saint-peters-5069-P1003214,Saint Peters,Adelaide,250,True,1,Share House,3,2,3,28-05-2022
-P926873,/share-house-adelaide-blakeview-5114-P926873,Blakeview,Adelaide,200,True,1,Share House,4,2,2,28-05-2022
 P1090381,/share-house-adelaide-happy-valley-5159-P1090381,Happy Valley,Adelaide,140,True,4,Share House,5,2,4,28-05-2022
 P549362,/share-house-adelaide-hindmarsh-5007-P549362,Hindmarsh,Adelaide,240,False,1,Share House,2,1,1,28-05-2022
 P536557,/share-house-adelaide-thebarton-5031-P536557,Thebarton,Adelaide,230,True,1,Share House,2,1,3,28-05-2022
@@ -7214,6 +7228,7 @@ P1188723,/homestay-berri-5343-P1188723,Berri,Berri,450,False,1,Homestay,1,1,1,28
 P885320,/share-house-belalie-north-5491-P885320,Belalie North,Belalie North,200,False,1,Share House,6,1,1,28-05-2022
 P1189312,/share-house-berri-5343-P1189312,Berri,Berri,150,True,1,Share House,4,1,1,28-05-2022
 P1193951,/share-house-whyalla-norrie-5608-P1193951,Whyalla Norrie,Whyalla Norrie,200,True,1,Share House,3,2,3,28-05-2022
+P1183714,/share-house-canberra-lyons-2606-P1183714,Lyons,Canberra,200,False,1,Share House,3,1,3,28-05-2022
 P783002,/share-house-canberra-bonner-2914-P783002,Bonner,Canberra,200,False,1,Share House,3,2,3,28-05-2022
 P1116714,/share-house-canberra-bonner-2914-P1116714,Bonner,Canberra,235,False,1,Share House,3,2,2,28-05-2022
 P929971,/share-house-canberra-belconnen-2617-P929971,Belconnen,Canberra,300,False,1,Flatshare,2,2,2,28-05-2022
@@ -7459,7 +7474,6 @@ P1174767,/share-house-canberra-harrison-2914-P1174767,Harrison,Canberra,220,Fals
 P1147558,/share-house-canberra-bonner-2914-P1147558,Bonner,Canberra,270,True,1,Share House,5,3,5,28-05-2022
 P1178738,/share-house-canberra-farrer-2607-P1178738,Farrer,Canberra,180,False,1,Share House,2,1,2,28-05-2022
 P801545,/share-house-canberra-lyneham-2602-P801545,Lyneham,Canberra,190,False,1,Share House,3,1,3,28-05-2022
-P1183714,/share-house-canberra-lyons-2606-P1183714,Lyons,Canberra,175,False,2,Share House,3,1,3,28-05-2022
 P1186124,/share-house-canberra-braddon-2612-P1186124,Braddon,Canberra,210,True,1,Share House,3,1,3,28-05-2022
 P1153187,/share-house-canberra-phillip-2606-P1153187,Phillip,Canberra,275,False,1,Flatshare,2,2,2,28-05-2022
 P221661,/share-house-canberra-weetangera-2614-P221661,Weetangera,Canberra,220,True,1,Share House,3,1,3,28-05-2022
@@ -7570,7 +7584,6 @@ P1192757,/share-house-hobart-sandy-bay-7005-P1192757,Sandy Bay,Hobart,280,False,
 P863104,/share-house-hobart-glenorchy-7010-P863104,Glenorchy,Hobart,160,False,2,Share House,4,1,4,28-05-2022
 P1086234,/share-house-hobart-lenah-valley-7008-P1086234,Lenah Valley,Hobart,200,False,1,Share House,4,2,4,28-05-2022
 P1192554,/share-house-hobart-south-hobart-7004-P1192554,South Hobart,Hobart,250,False,1,Share House,3,1,1,28-05-2022
-P1192414,/share-house-hobart-howrah-7018-P1192414,Howrah,Hobart,189,False,1,Share House,3,1,3,28-05-2022
 P1159417,/share-house-hobart-north-hobart-7000-P1159417,North Hobart,Hobart,225,False,1,Share House,2,1,2,28-05-2022
 P1192224,/share-house-hobart-west-hobart-7000-P1192224,West Hobart,Hobart,250,False,1,Share House,2,1,1,28-05-2022
 P1190598,/share-house-hobart-sandy-bay-7005-P1190598,Sandy Bay,Hobart,260,False,1,Share House,3,2,2,28-05-2022
