@@ -1,4 +1,4 @@
-.mypy_cache/
+.mypy_cache
 bin
 HouseAndRentEnv
 .ipynb_checkpoints
@@ -6,3 +6,4 @@ HouseAndRentEnv
 .vscode
 env
 __pycache__
+tests/__pycache__
