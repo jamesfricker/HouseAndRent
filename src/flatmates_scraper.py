@@ -1,4 +1,4 @@
-""" flatmates scraper logic and running """
+""" scrape flatmates data """
 import csv
 from datetime import date
 from datetime import datetime
@@ -6,11 +6,7 @@ import time
 from bs4 import BeautifulSoup
 import requests
 
-#:
-# make process for getting the listings run automatically
-# create flask app with graphs so we can see visual stats
 
-# want to scrape rent data from flatmates.com
 labels = ["flatmates_id", "url", "suburb", "city", "price", "price_includes_bills",
         "rooms_available", "house_type", "bedroom_count",
         "bathroom_count", "people_count","date"]
@@ -138,6 +134,7 @@ class GetFlatmatesData():
 
 
     def write_house_data_to_csv(self,house_data):
+        """ write house data to csv """
         date_formatted = date.today().strftime("%d_%m_%Y")
         output_folder_location = "output"
         self.write_dict_to_csv(f"{output_folder_location}/raw_{date_formatted}.csv", house_data)
@@ -157,7 +154,7 @@ def get_flatmates_max_page(base_url):
 def main():
     """ run the program """
     flatmates_data = GetFlatmatesData()
-    cities = ["sydney", "melbourne", "brisbane", "perth", "adelaide", "canberra","hobart"]
+    cities = ["sydney", "melbourne", "brisbane", "perth", "adelaide", "canberra","hobart","darwin"]
     all_listings = []
     for city in cities:
         base_url = "https://flatmates.com.au/rooms/" + city + "/newest"
