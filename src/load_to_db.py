@@ -20,10 +20,10 @@ def load_flatmates_data_to_db(flatmates_house_info,labels):
                 "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", insert_row_to_db)
         print("Successfully insert or updated listing " +
             str(flatmates_house_info["flatmates_id"]) + " into db")
-    except Exception as e:
+    except Exception as exception:
         print("Error inserting listing " + \
             str(flatmates_house_info["flatmates_id"]) + \
-            " into db" + str(e))
+            " into db" + str(exception))
 
     connection.commit()
     connection.close()
