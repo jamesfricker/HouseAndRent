@@ -11,7 +11,7 @@ Features coming
 
 ## Extract
 
-Scrape flatmates for rental listings 
+Scrape flatmates for rental listings. Extracts are found in the `outputs` folder.
 
 ## Transform
 
@@ -19,7 +19,7 @@ Transform the scraped information into correct tables and flatmates_id's
 
 ## Load
 
-Load the data into sql db
+Load the data into sqlite db
 
 ## Display
 
