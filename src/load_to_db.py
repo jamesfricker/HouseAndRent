@@ -12,12 +12,16 @@ def load_flatmates_data_to_db(flatmates_house_info,labels):
         insert_row_to_db.append(flatmates_house_info[i])
 
     # update
-    cursor.execute("UPDATE flatmates_rent_listings " +
-                    "SET date=date " +
-                    "WHERE flatmates_id='" +str(flatmates_house_info["flatmates_id"]) + "';")
+    cursor.execute(f"""
+    UPDATE flatmates_rent_listings 
+    SET date=date 
+    WHERE flatmates_id='{str(flatmates_house_info["flatmates_id"])}';
+    """)
     try:
-        cursor.execute("INSERT OR IGNORE INTO flatmates_rent_listings " +
-                "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", insert_row_to_db)
+        cursor.execute("""
+        INSERT OR IGNORE INTO flatmates_rent_listings
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+        """, insert_row_to_db)
         print("Successfully insert or updated listing " +
             str(flatmates_house_info["flatmates_id"]) + " into db")
     except Exception as exception:
