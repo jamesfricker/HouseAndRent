@@ -37,6 +37,7 @@ def read_csv_extract():
     output_location = os.path.join(os.getcwd(), "output")
     print(output_location)
     files = os.listdir(output_location)
+    files.sort()
     latest_extract = files[-1]
     print(latest_extract)
     return csv.DictReader(open(f"output/{latest_extract}", "r",encoding='utf-8'))
