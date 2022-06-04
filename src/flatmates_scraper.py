@@ -135,7 +135,7 @@ class GetFlatmatesData():
 
     def write_house_data_to_csv(self,house_data):
         """ write house data to csv """
-        date_formatted = date.today().strftime("%d_%m_%Y")
+        date_formatted = date.today().strftime("%Y_%m_%d")
         output_folder_location = "output"
         self.write_dict_to_csv(f"{output_folder_location}/raw_{date_formatted}.csv", house_data)
 
