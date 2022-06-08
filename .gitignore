@@ -6,5 +6,7 @@ HouseAndRentEnv
 .vscode
 env
 __pycache__
-tests/__pycache__
 .DS_Store
+.coverage
+*.pyc
+tests/__pycache__
