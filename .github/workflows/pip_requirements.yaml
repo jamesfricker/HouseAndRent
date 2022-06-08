@@ -1,8 +1,8 @@
 name: Requirements txt
 
 on:   
-  push:
   pull_request:
+      types: [closed]  
   workflow_dispatch:
 # found how to do this here
 # https://github.com/ad-m/github-push-action
