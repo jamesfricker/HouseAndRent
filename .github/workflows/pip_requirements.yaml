@@ -2,9 +2,7 @@ name: Requirements txt
 
 on:   
   push:
-    branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
 # found how to do this here
 # https://github.com/ad-m/github-push-action
