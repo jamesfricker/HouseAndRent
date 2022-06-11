@@ -28,7 +28,6 @@ def load_flatmates_data_to_db(flatmates_house_info,labels):
         print("Error inserting listing " + \
             str(flatmates_house_info["flatmates_id"]) + \
             " into db" + str(exception))
-
     connection.commit()
     connection.close()
 
