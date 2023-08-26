@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message PredictRequest {
+    string city = 1;
+    string suburb = 2;
+    string house_type = 3;
+    int32 bedroom_count = 4;
+    int32 bathroom_count = 5;
+    bool price_includes_bills = 6;
+    int32 rooms_available = 7;
+}
+
+message PredictResponse {
+    float prediction = 1;
+}
