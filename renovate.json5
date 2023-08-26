@@ -3,7 +3,6 @@
   "extends": [
     "config:base"
   ],
-  {
   "labels": ["renovate", "dependencies"], // Add labels to the PR.
   "commitMessagePrefix": "[renovate]", // Prefix for every commit message.
   "rangeStrategy": "auto", // This tells Renovate to use its built-in logic to decide whether to pin, bump, or replace dependency versions.
@@ -17,6 +16,5 @@
       "groupName": "all non-major dependencies",
       "groupSlug": "non-major-updates"
     }
-  ],
-
+  ]
 }
