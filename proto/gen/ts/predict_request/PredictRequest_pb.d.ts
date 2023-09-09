@@ -1,5 +1,5 @@
 // package: 
-// file: PredictRequest.proto
+// file: predict_request/PredictRequest.proto
 
 import * as jspb from "google-protobuf";
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict House Rent</title>
+    <script src="dist/app.js" type="module" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 400px;
+        }
+
+        label,
+        input,
+        select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="predict-form">
+        <label>
+            City:
+            <input type="text" name="city" list="cities" required>
+        </label>
+        <datalist id="cities"></datalist>
+
+        <label>
+            Suburb:
+            <input type="text" name="suburb" list="suburbs" required>
+        </label>
+        <datalist id="suburbs"></datalist>
+
+        <label>
+            House Type:
+            <select name="house_type" id="house_type">
+                <option value="Share House">Share House</option>
+                <!-- Add other house types here -->
+            </select>
+        </label>
+
+        <label>
+            Bedroom Count:
+            <input type="number" name="bedroom_count" required>
+        </label>
+
+        <label>
+            Bathroom Count:
+            <input type="number" name="bathroom_count" required>
+        </label>
+
+        <label>
+            Price Includes Bills:
+            <input type="checkbox" name="price_includes_bills">
+        </label>
+
+        <label>
+            Rooms Available:
+            <input type="number" name="rooms_available" required>
+        </label>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="result"></div>
+</body>
+
+</html>

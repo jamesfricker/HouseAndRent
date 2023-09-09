@@ -10,3 +10,43 @@ __pycache__
 .coverage
 *.pyc
 tests/__pycache__
+.ruff_cache
+dist/
+
+
+# Node modules and dependencies
+node_modules/
+
+# Distribution directory (commonly used with compiled projects)
+dist/
+
+# Temporary files for TypeScript transpiler
+*.tsbuildinfo
+
+# Development tools
+.tscache/
+.tslint.json
+
+# IDE and editor directories/files
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-*
+*.sublime_workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

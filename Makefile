@@ -6,3 +6,9 @@ extract:
 
 load:
 	python3 src/load_to_db.py
+
+model:
+	python3 src/model.py
+
+model-serve:
+	python3 src/app.py
