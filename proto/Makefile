@@ -7,4 +7,4 @@ docker-gen:
 	docker run -v $$(pwd)/gen:/app/gen proto-generator
 
 proto-clean:
-	rm -rf proto/gen/*
+	rm -rf gen/**
