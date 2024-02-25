@@ -5,72 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Predict House Rent</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="dist/app.js" type="module" defer></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            font-family: 'Inter', sans-serif;
         }
 
-        form {
-            max-width: 400px;
-        }
-
-        label,
-        input,
-        select {
-            width: 100%;
-            margin-bottom: 10px;
+        .header-background {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+            background-size: cover;
+            background-position: center;
         }
     </style>
 </head>
 
-<body>
-    <form id="predict-form">
-        <label>
-            City:
-            <input type="text" name="city" list="cities" required>
-        </label>
-        <datalist id="cities"></datalist>
+<body class="bg-gray-200 py-10">
+    <div class="max-w-3xl mx-auto bg-white rounded shadow-lg overflow-hidden">
+        <div class="header-background p-5 text-center">
+            <h1 class="text-4xl mb-2 text-white font-bold">Predict House Rent</h1>
+            <p class="text-white">Fill out the form to get an estimate.</p>
+        </div>
+        <form id="predict-form" class="p-5">
+            <!-- City -->
+            <div class="mb-4">
+                <label for="city" class="block mb-2 text-sm font-semibold text-gray-700">City:</label>
+                <select name="city" id="city" class="w-full p-2 border rounded shadow-sm">
+                    <!-- Options Filled Via API -->
+                </select>
+            </div>
 
-        <label>
-            Suburb:
-            <input type="text" name="suburb" list="suburbs" required>
-        </label>
-        <datalist id="suburbs"></datalist>
+            <!-- Suburb -->
+            <div class="mb-4">
+                <label for="suburb" class="block mb-2 text-sm font-semibold text-gray-700">Suburb:</label>
+                <select name="suburb" id="suburb" class="w-full p-2 border rounded shadow-sm">
+                    <!-- Options Filled Via API based on chosen city -->
+                </select>
+            </div>
 
-        <label>
-            House Type:
-            <select name="house_type" id="house_type">
-                <option value="Share House">Share House</option>
-                <!-- Add other house types here -->
-            </select>
-        </label>
+            <!-- House Type -->
+            <div class="mb-4">
+                <label for="house_type" class="block mb-2 text-sm font-semibold text-gray-700">House Type:</label>
+                <select name="house_type" id="house_type" class="w-full p-2 border rounded shadow-sm">
+                    <!-- Options Filled Via API -->
+                </select>
+            </div>
 
-        <label>
-            Bedroom Count:
-            <input type="number" name="bedroom_count" required>
-        </label>
+            <!-- Bedroom Count -->
+            <div class="mb-4">
+                <label for="bedroom_count" class="block mb-2 text-sm font-semibold text-gray-700">Bedroom Count:</label>
+                <input type="number" name="bedroom_count" required class="w-full p-2 border rounded shadow-sm">
+            </div>
 
-        <label>
-            Bathroom Count:
-            <input type="number" name="bathroom_count" required>
-        </label>
+            <!-- Bathroom Count -->
+            <div class="mb-4">
+                <label for="bathroom_count" class="block mb-2 text-sm font-semibold text-gray-700">Bathroom
+                    Count:</label>
+                <input type="number" name="bathroom_count" required class="w-full p-2 border rounded shadow-sm">
+            </div>
 
-        <label>
-            Price Includes Bills:
-            <input type="checkbox" name="price_includes_bills">
-        </label>
+            <!-- Price Includes Bills -->
+            <div class="mb-4 flex items-center">
+                <input type="checkbox" name="price_includes_bills" id="price_includes_bills" class="mr-2">
+                <label for="price_includes_bills" class="text-sm font-semibold text-gray-700">Price Includes
+                    Bills</label>
+            </div>
 
-        <label>
-            Rooms Available:
-            <input type="number" name="rooms_available" required>
-        </label>
+            <!-- Rooms Available -->
+            <div class="mb-4">
+                <label for="rooms_available" class="block mb-2 text-sm font-semibold text-gray-700">Rooms
+                    Available:</label>
+                <input type="number" name="rooms_available" required class="w-full p-2 border rounded shadow-sm">
+            </div>
 
-        <button type="submit">Predict</button>
-    </form>
-
-    <div id="result"></div>
+            <!-- Predict Button -->
+            <button type="submit"
+                class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600 flex items-center justify-center space-x-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    class="h-5 w-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18">
+                    </path>
+                </svg>
+                <span>Predict</span>
+            </button>
+        </form>
+        <div id="result" class="mt-6 p-5 bg-gray-100"></div>
+    </div>
 </body>
 
 </html>

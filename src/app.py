@@ -43,6 +43,20 @@ def process_input_for_prediction(input_data, training_columns):
     return df
 
 
+def get_suburbs_from_city(city_name):
+    connection = sqlite3.connect("src/db/flatmates_data.db")
+    cursor = connection.cursor()
+
+    # Fetch suburbs based on the city
+    cursor.execute(
+        "SELECT DISTINCT suburb FROM flatmates_rent_listings WHERE city=?", (city_name,)
+    )
+    suburbs = [row[0] for row in cursor.fetchall()]
+
+    connection.close()
+    return suburbs
+
+
 def get_unique_locations():
     connection = sqlite3.connect("src/db/flatmates_data.db")
     cursor = connection.cursor()
@@ -63,6 +77,17 @@ def get_unique_locations():
 
     connection.close()
     return data
+
+
+@app.route("/get-suburbs", methods=["GET"])
+def get_suburbs():
+    city = request.args.get("city")
+
+    if not city:
+        return jsonify({"error": "City not provided"}), 400
+
+    suburbs = get_suburbs_from_city(city)
+    return jsonify({"suburbs": suburbs})
 
 
 @app.route("/predict", methods=["POST"])

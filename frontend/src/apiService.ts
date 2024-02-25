@@ -10,6 +10,18 @@ export const fetchLocations = async () => {
     }
 };
 
+
+export async function fetchSuburbs(city: string): Promise<string[]> {
+    const response = await fetch(`/get-suburbs?city=${city}`);
+    if (response.ok) {
+        const data = await response.json();
+        return data.suburbs;
+    } else {
+        throw new Error('Failed to fetch suburbs');
+    }
+}
+
+
 export async function sendPredictionRequest(requestPayload: {
     city: string;
     suburb: string;

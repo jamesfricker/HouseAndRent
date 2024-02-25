@@ -1,4 +1,4 @@
-import { fetchLocations, sendPredictionRequest } from './apiService.js';
+import { fetchLocations, sendPredictionRequest, fetchSuburbs } from './apiService.js';
 
 document.getElementById('predict-form')?.addEventListener('submit', async (event: Event) => {
     event.preventDefault();
@@ -29,8 +29,9 @@ document.getElementById('predict-form')?.addEventListener('submit', async (event
 document.addEventListener("DOMContentLoaded", function () {
     fetchLocations()
         .then(data => {
-            populateDataList('cities', data.cities);
-            populateDataList('suburbs', data.suburbs);
+            populateDropdown('city', data.cities);
+            // Remove the direct suburb population
+            // populateDropdown('suburb', data.suburbs);
             populateDropdown('house_type', data.house_types);
         })
         .catch(error => {
@@ -57,3 +58,16 @@ function populateDataList(id: string, items: string[]) {
         dataList.appendChild(option);
     });
 }
+
+const cityDropdown = document.getElementById('city') as HTMLSelectElement;
+cityDropdown?.addEventListener('change', async (event: Event) => {
+    const selectedCity = (event.target as HTMLSelectElement).value;
+    if (selectedCity) {
+        try {
+            const suburbs = await fetchSuburbs(selectedCity);
+            populateDropdown('suburb', suburbs);
+        } catch (error) {
+            console.error('Error fetching suburbs:', error);
+        }
+    }
+});
